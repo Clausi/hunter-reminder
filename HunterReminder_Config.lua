@@ -26,7 +26,7 @@ addonData.config.initConfig = function()
 end
 
 --[[
-    create text
+    create text object
 ]]--
 addonData.config.text = function(parent, text, size, point, color)
     local textObj = parent:CreateFontString(nil, "ARTWORK")
