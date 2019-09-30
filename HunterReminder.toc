@@ -1,0 +1,10 @@
+## Interface: 11302
+## Title: HunterReminder
+## Notes-deDE: Erinnert Jäger an fehlendes Begleittier (Begleiter angriff), Begleiter Futter, Aspekte und Munition
+## Notes-enUS: Reminds hunters of missing pets (attacking), pet food, aspects and ammo
+## Author: @project-author@
+## Version: @project-version@
+## DefaultState: enabled
+## SavedVariablesPerCharacter: coreSettings, petSettings, petfoodSettings, aspectSettings, ammoSettings
+HunterReminder_Config.lua
+HunterReminder_Core.lua
