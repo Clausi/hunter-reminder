@@ -2,6 +2,9 @@ local addonName, addonData = ...
 
 addonData.pet = {}
 
+--[[
+    pet config panel factory
+--]]
 addonData.pet.configPanelFactory = function(parentPanel, panelName, size, point)
     addonData.config.configFrame = CreateFrame("Frame", addonName .. panelName, parentPanel)
     local panel = addonData.config.configFrame
